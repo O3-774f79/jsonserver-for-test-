@@ -1,0 +1,228 @@
+{ 
+    "menu": [
+        [
+            {
+              "name": "Inbox",
+              "url": "Inbox/Inbox/Index",
+              "children": null
+            },
+            {
+              "name": "ใบเบิกเงินทดรองจ่าย",
+              "url": null,
+              "children": [
+                {
+                  "name": "การจัดการ",
+                  "url": null,
+                  "children": [
+                    {
+                      "name": "ใบขออนุมัติเบิกเงิน",
+                      "url": "CA/CA/List",
+                      "children": null
+                    },
+                    {
+                      "name": "เบิกเงินทดรองจ่าย",
+                      "url": "CA/CAReceive/List",
+                      "children": null
+                    },
+                    {
+                      "name": "ติดตามการเบิกเงินทดรองจ่าย",
+                      "url": "CA/CA/CAFRList",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "name": "รายงาน",
+                  "url": null,
+                  "children": [
+                    {
+                      "name": "ตารางสรุปการขอเบิกเงิน(การเงิน)",
+                      "url": "CA/CAPlanningReport/List",
+                      "children": null
+                    },
+                    {
+                      "name": "รายงานเบิกเงินทดรองจ่ายคงค้างเกิน 45 วัน",
+                      "url": "CA/CADelayReport/List",
+                      "children": null
+                    },
+                    {
+                      "name": null,
+                      "url": "CA/CAApproveReport/List",
+                      "children": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ใบสำคัญขอจ่าย / จ่าย",
+              "url": null,
+              "children": [
+                {
+                  "name": "การจัดการ",
+                  "url": null,
+                  "children": [
+                    {
+                      "name": "ใบขออนุมัติใบสำคัญจ่ายเงินสด (Cash)",
+                      "url": "PV/PV/CashList",
+                      "children": null
+                    },
+                    {
+                      "name": "ใบขออนุมัติใบสำคัญขอจ่ายเช็ค (Cheque)",
+                      "url": "PV/PV/ChequeList",
+                      "children": null
+                    },
+                    {
+                      "name": "ใบนำส่งเอกสารใบสำคัญ",
+                      "url": "PV/PVGroup/List",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "name": "การจัดการผู้รับรองพิเศษ",
+                  "url": null,
+                  "children": [
+                    {
+                      "name": "Cost Center",
+                      "url": "CentralSetting/CostCenterManager/List",
+                      "children": null
+                    },
+                    {
+                      "name": "ผู้ตรวจสอบก่อนผู้อนุมัติ",
+                      "url": "CentralSetting/ReviewManager/List",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "name": null,
+                  "url": null,
+                  "children": [
+                    {
+                      "name": null,
+                      "url": "PV/PVApproveReport/List",
+                      "children": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ใบนำส่งเอกสารธนาคาร",
+              "url": null,
+              "children": [
+                {
+                  "name": "การจัดการ",
+                  "url": null,
+                  "children": [
+                    {
+                      "name": "ใบนำส่งเอกสารสรุปการจ่ายเงิน ประเภท Direct Credit",
+                      "url": "BS/BS/DCPList",
+                      "children": null
+                    },
+                    {
+                      "name": "ใบนำส่งเอกสารสรุปการจ่ายเงิน ประเภท Cheque Issue",
+                      "url": "BS/BS/MCPList",
+                      "children": null
+                    },
+                    {
+                      "name": "ใบนำส่งเอกสารสรุปการจ่ายเงิน ประเภท Express Cheque",
+                      "url": "BS/BS/XMQList",
+                      "children": null
+                    },
+                    {
+                      "name": "ใบปะหน้าสรุปการจ่ายเงิน ประเภท BAHTNET",
+                      "url": "BS/BS/BNTList",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "name": "การตั้งค่า",
+                  "url": null,
+                  "children": [
+                    {
+                      "name": "ผู้ลงนาม",
+                      "url": "CentralSetting/BSSigner/List",
+                      "children": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ข้อมูลส่วนกลาง",
+              "url": null,
+              "children": [
+                {
+                  "name": "ข้อมูลทั่วไป",
+                  "url": "CentralSetting/ValueHelpSetting/List",
+                  "children": null
+                },
+                {
+                  "name": "ปฏิทินวันหยุด",
+                  "url": "CentralSetting/HolidayCalendar/List",
+                  "children": null
+                },
+                {
+                  "name": "ค่าการทำงาน",
+                  "url": "CentralSetting/ConfigureValue/List",
+                  "children": null
+                },
+                {
+                  "name": "คณะกรรมการบริษัท",
+                  "url": "CentralSetting/BoardUser/List",
+                  "children": null
+                },
+                {
+                  "name": "ผู้บริหารระดับสูง",
+                  "url": "CentralSetting/ExecutiveUser/List",
+                  "children": null
+                },
+                {
+                  "name": null,
+                  "url": "CentralSetting/HrEmployeeMobile/List",
+                  "children": null
+                },
+                {
+                  "name": null,
+                  "url": "AuthorityCompany/AuthorityCompany/List",
+                  "children": null
+                },
+                {
+                  "name": null,
+                  "url": "CentralSetting/CAEmailNotification/List",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "name": "กำหนดสิทธิ์การใช้งาน",
+              "url": null,
+              "children": [
+                {
+                  "name": "จัดการสิทธิ์การใช้งานระบบ",
+                  "url": "Authorization/AppCompositeRole/List",
+                  "children": null
+                },
+                {
+                  "name": "กำหนดสิทธิ์ผู้ใช้งาน",
+                  "url": "Authorization/AssignUserRole/List",
+                  "children": null
+                },
+                {
+                  "name": "กลุ่มความรับผิดชอบ",
+                  "url": "CentralSetting/RespGroup/List",
+                  "children": null
+                },
+                {
+                  "name": "สิทธิ์อำนาจการอนุมัติ",
+                  "url": "CentralSetting/WorkflowAuthority/List",
+                  "children": null
+                }
+              ]
+            }
+          ]
+    ]
+  }
